@@ -7,6 +7,7 @@ body	{
 	margin: 0 auto;
 	background-image: url("../images/whirlpool.png");
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
 }
 
 
@@ -45,10 +46,12 @@ header	{
 	width: 100%;
 	height: 80px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	background-color: #343434;
+	background-color: #4aaaa5;
 	color: white;
 	border-radius: 4px;
 	padding-left: 8px;
+	box-shadow: 1px 1px 3px #292929;
+	border-color: #cccccc;
 }
 
 a {
@@ -57,7 +60,9 @@ a {
 
 
 
-
+.shadowfilter {
+	
+}
 
 
 
@@ -70,14 +75,17 @@ a {
 section	{
 	width: 100%;
 	clear: both;
+	margin-top: 15px;
 }
 
 article	{
 	width: 650px;
 	float: left;
-	background-color: #666161;
-	padding: 2px 8px 2px 8px;
+	background-color: #ffffff;
+	padding: 2px 14px 200px 14px;
 	border-radius: 4px;
+	box-shadow: 1px 1px 3px #292929;
+	clear: both;
 }
 
 
@@ -87,9 +95,10 @@ aside	{
 	float: right;
 	margin-left: 40px;
 	text-align: center;
-	background-color: #343434;
+	background-color: #ffffff;
 	border-radius: 4px;
 	padding-bottom: 14px;
+	box-shadow: 1px 1px 3px #292929;
 }
 
 footer	{
@@ -101,6 +110,7 @@ footer	{
 	clear: both;
 	width: 100%;
 	background-color: #E2E2E2;
+	box-shadow: 1px 1px 3px #292929;
 }
 
 .bioImage	{
@@ -118,6 +128,18 @@ h1	{
 	
 }
 
-h2	{
+/*.boutMe	{
 	padding-left: 8px;
+	background-color: #ffffff;
+	width: 650px;
+	border-radius: 4px;
+	padding: 15px;
+	box-shadow: 1px 1px 3px #292929;
+}*/
+
+hr.style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
+
