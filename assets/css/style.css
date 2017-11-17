@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 body	{
 	width: 960px;
 	margin: 0 auto;
@@ -9,24 +13,6 @@ body	{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 }
-
-
-/*nav		{
-	float: right;
-	
-	font-size: 26px;
-	margin-bottom: 150px;
-	margin-right: 0;
-	text-align: center;
-	overflow: visible;
-	vertical-align: center;
-}*/
-
-
-/*.main-nav a {
-	width: 20%;
-	background: #343434;
-}*/
 
 nav a {
   color: white;
@@ -39,8 +25,6 @@ nav a {
   height: 80px;
 
 }
-
-
 
 header	{
 	width: 100%;
@@ -58,19 +42,9 @@ a {
   text-decoration: none;
 }
 
-
-
 .shadowfilter {
 	
 }
-
-
-
-
-
-
-
-
 
 section	{
 	width: 100%;
@@ -87,8 +61,6 @@ article	{
 	box-shadow: 1px 1px 3px #292929;
 	clear: both;
 }
-
-
 
 aside	{
 	width: 270px;
@@ -131,15 +103,6 @@ h1	{
 	
 }
 
-/*.boutMe	{
-	padding-left: 8px;
-	background-color: #ffffff;
-	width: 650px;
-	border-radius: 4px;
-	padding: 15px;
-	box-shadow: 1px 1px 3px #292929;
-}*/
-
 hr.style-four {
     height: 12px;
     border: 0;
@@ -177,4 +140,86 @@ textarea {
     box-sizing: border-box;
     resize: none;
     overflow: auto;
+}
+
+.portImg {
+	width: 40%;
+	height: auto;
+	float: left;
+	margin: 5%;
+}
+
+.portCont {
+	width: 100%;
+	float: left;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.module {
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+}
+
+.mid h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  margin: 30%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.port1 {
+	background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../images/port1.jpg");
+}
+
+.port2 {
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),url("../images/port2.jpg");
+}
+
+.port3 {
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),url("../images/port3.jpg");
+}
+
+.port4 {
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),url("../images/port4.jpg");
+}
+
+.port5 {
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),url("../images/port5.jpg");
+}
+
+.port6 {
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),url("../images/port6.jpg");
 }
