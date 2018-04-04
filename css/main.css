@@ -1,8 +1,8 @@
 /* 1. Base */
 
 html {
-  background-color: #5f45bb;
-  background-image: linear-gradient(to bottom right, #180cac, #d054e4);
+  background-color: #000046;
+  background-image: linear-gradient(to right, #000046, #1cb5e0);
   color: #fff;
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
@@ -191,7 +191,6 @@ a {
     align-items: center;
     padding: 5rem 3rem;
   }
-
   .side {
     margin-bottom: 3rem;
     width: 100%;
@@ -205,7 +204,6 @@ a {
     justify-content: space-evenly;
     padding: 4rem;
   }
-
   .side {
     flex-grow: 0;
     flex-shrink: 0;
@@ -214,7 +212,6 @@ a {
     order: 2;
     width: 20rem;
   }
-
   .about {
     flex-grow: 1;
     flex-shrink: 1;
