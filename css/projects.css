@@ -4,8 +4,8 @@
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 3rem;
   opacity: 1 !important;
-  
-    /* margin-right: auto;
+
+  /* margin-right: auto;
   margin-left: auto;
   width: 1300px;
   justify-content: center; */
@@ -13,12 +13,12 @@
 
 /* Simple Card styles for prettying */
 html {
+  font-family: "Quicksand", sans-serif;
   font-size: 16px;
-  font-family: "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   background-color: #000046;
   background-image: linear-gradient(to right, #000046, #1cb5e0);
   -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased; 
+  -webkit-font-smoothing: antialiased;
   line-height: 1.5;
   min-height: 100vh;
   min-width: 300px;
@@ -83,3 +83,7 @@ img {
   max-width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: #000000;
+}
