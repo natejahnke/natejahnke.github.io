@@ -92,4 +92,11 @@ li {
     font-size: 14px;
     margin-left: 10px;
     list-style-type: circle;
+    list-style-position:inside;
 }
+
+ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
