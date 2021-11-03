@@ -4,7 +4,7 @@ html {
   background-color: #000046;
   background-image: linear-gradient(to right, #000046, #1cb5e0);
   color: #fff;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto Mono", monospace;
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -35,7 +35,7 @@ a {
 
 .job,
 .button {
-  font-family: "Montserrat", "Quicksand", sans-serif;
+  font-family: "Roboto Mono", monospace;
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
@@ -49,7 +49,7 @@ a {
 /* 3. Specific */
 
 .wallpaper {
-  background-image: url("../images/tokyo.jpg");
+  background-image: url("https://i.ibb.co/WVVC0sq/Fuji-Blur25.jpg");
   background-position: center;
   background-size: cover;
   opacity: 0.2;
@@ -119,23 +119,28 @@ a {
   display: inline-block;
   margin-top: 1.5rem;
   vertical-align: top;
+  display: flex;
+  justify-content: center;
 }
 
 .button {
-  background-color: #fff;
-  border-radius: 290486px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 3px solid #FBFBFD;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-  color: #9013fe;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  filter: blur(1px);
+  color: #FBFBFD;
   display: inline-block;
-  font-size: 0.875rem;
-  line-height: 1;
-  padding: 1.25em 2em;
-  text-shadow: none;
-  transition-property: box-shadow, transform;
-  user-select: none;
-  vertical-align: top;
-  white-space: nowrap;
-  will-change: box-shadow, transform;
+  font-size: 24px;
+  line-height: 146.19%;
+  letter-spacing: 0.205em;
+  width: 200px;
+  height: 72px;
 }
 
 .button:hover {
@@ -191,6 +196,7 @@ a {
     align-items: center;
     padding: 5rem 3rem;
   }
+
   .side {
     margin-bottom: 3rem;
     width: 100%;
@@ -204,6 +210,7 @@ a {
     justify-content: space-evenly;
     padding: 4rem;
   }
+
   .side {
     flex-grow: 0;
     flex-shrink: 0;
@@ -212,6 +219,7 @@ a {
     order: 2;
     width: 20rem;
   }
+
   .about {
     flex-grow: 1;
     flex-shrink: 1;
