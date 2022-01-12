@@ -1,15 +1,20 @@
 .card-container {
     display: grid;
+    /* display: flex; */
     padding: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 3rem;
     opacity: 1 !important;
     /* margin-right: auto;
-  margin-left: auto;
-  width: 1300px;
-  justify-content: center; */
+    margin-left: auto; */
+    /* width: 1300px; */
+    /* align-items: center; */
 }
 
+.content {
+    display: flex;
+    align-items: center;
+}
 
 /* Simple Card styles for prettying */
 
@@ -92,11 +97,11 @@ li {
     font-size: 14px;
     margin-left: 10px;
     list-style-type: circle;
-    list-style-position:inside;
+    list-style-position: inside;
 }
 
 ul {
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
-  }
+}
